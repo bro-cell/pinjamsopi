@@ -21,111 +21,82 @@
 
 	],
 
-	"Categories": [
-    {
-      "id": 1,
-      "nama_cat": "Tips",
-      "gambar": "file:///android_asset/image/p1.png"
+	"Categories": [{
+		"id": 1,
+		"name_category": "Tips",
+		"image": "file:///android_asset/image/p1.jpg"
 
-    },
-    {
-      "id": 2,
-      "nama_cat": "Trik",
-      "gambar": "file:///android_asset/image/p2.png"
+	},
+	{
+		"id": 3,
+		"name_category": "Wawasan",
+		"image": "file:///android_asset/image/p2.jpg"
 
-    },
-    {
-      "id": 3,
-      "nama_cat": "Lain lain",
-      "gambar": "file:///android_asset/image/p3.png"
+	}],
 
-    }
-  ],
-
-  "Data":
-  [
-
-
-
-    {
-      "id":8,
-      "id_guide":"008",
-      "nama_cat":"Umum",
-      "judul":"Apa itu Shopee Pinjam (SPinjam)?",
-      "image":"file:///android_asset/image/sp1.jpg",
-      "link":"file:///android_asset/guide/guide_8.html",
-      "deskripsi":""
-    },
-
-    {
-      "id":7,
-      "id_guide":"007",
-      "nama_cat":"Tips",
-      "judul":"Cara Mendaftar ShopeePinjam (SPinjam)",
-      "image":"file:///android_asset/image/sp1.jpg",
-      "link":"file:///android_asset/guide/guide_7.html",
-      "deskripsi":""
-    },
-
-    {
-      "id":6,
-      "id_guide":"006",
-      "nama_cat":"Umum",
-      "judul":"Kelebihan Pinjama Shopee (Spinjam)",
-      "image":"file:///android_asset/image/sp1.jpg",
-      "link":"file:///android_asset/guide/guide_6.html",
-      "deskripsi":""
-    },
-
-    {
-      "id":5,
-      "id_guide":"005",
-      "nama_cat":"Umum",
-      "judul":"Kekurangan Pinjama Shopee (Spinjam)",
-      "image":"file:///android_asset/image/sp1.jpg",
-      "link":"file:///android_asset/guide/guide_5.html",
-      "deskripsi":""
-    },
-
-    {
-      "id":4,
-      "id_guide":"004",
-      "nama_cat":"Tips",
-      "judul":"Tutorial Meminjam di ShopeePinjam (SPinjam)",
-      "image":"file:///android_asset/image/sp1.jpg",
-      "link":"file:///android_asset/guide/guide_4.html",
-      "deskripsi":""
-    },
-
-
-    {
-      "id":3,
-      "id_guide":"003",
-      "nama_cat":"Lain lain",
-      "judul":"Catatan Shopee Pinjam atau SPinjam",
-      "image":"file:///android_asset/image/sp1.jpg",
-      "link":"file:///android_asset/guide/guide_3.html",
-      "deskripsi":""
-    },
-
-    {
-      "id":2,
-      "id_guide":"002",
-      "nama_cat":"Tips",
-      "judul":"Penghitungan SPinjam",
-      "image":"file:///android_asset/image/sp1.jpg",
-      "link":"file:///android_asset/guide/guide_2.html",
-      "deskripsi":""
-    },
-
-    {
-      "id":1,
-      "id_guide":"001",
-      "nama_cat":"Tips",
-      "judul":"Cara Menggunakan Shopee Pinjam (SPinjam)",
-      "image":"file:///android_asset/image/sp1.jpg",
-      "link":"file:///android_asset/guide/guide_1.html",
-      "deskripsi":""
-    }
-  ]
+	"Data": [{
+			"id": 1,
+			"name_category": "Wawasan",
+			"title": "Apa itu Shopee Pinjam (SPinjam)?",
+			"image": "file:///android_asset/image/logo.jpg",
+			"description": "Pengertian Shopee Pinjam",
+			"link": "file:///android_asset/guide/guide_8.html"
+		},
+		{
+			"id": 2,
+			"name_category": "Tips",
+			"title": "Cara Mendaftar ShopeePinjam (SPinjam)",
+			"image": "file:///android_asset/image/logo.jpg",
+			"description": "Langkah-langkah daftar Shopeepinjam",
+			"link": "file:///android_asset/guide/guide_7.html"
+		},
+		{
+			"id": 3,
+			"name_category": "Wawasan",
+			"title": "Kelebihan Pinjaman Shopee (Spinjam)",
+			"image": "file:///android_asset/image/logo.jpg",
+			"description": "Apa saja kelebihan dari Shopee Pinjam",
+			"link": "file:///android_asset/guide/guide_6.html"
+		},
+		{
+			"id": 4,
+			"name_category": "Wawasan",
+			"title": "Kekurangan Pinjaman Shopee (Spinjam)",
+			"image": "file:///android_asset/image/logo.jpg",
+			"description": "Apa saja kekurangan dari Shopee Pinjam",
+			"link": "file:///android_asset/guide/guide_5.html"
+		},
+		{
+			"id": 5,
+			"name_category": "Tips",
+			"title": "Tutorial Meminjam di ShopeePinjam (SPinjam)",
+			"image": "file:///android_asset/image/logo.jpg",
+			"description": "Langkah-langkah pengajuan pinjaman di Shopee pinjam",
+			"link": "file:///android_asset/guide/guide_4.html"
+		},
+		{
+			"id": 6,
+			"name_category": "Wawasan",
+			"title": "Catatan Shopee Pinjam atau SPinjam",
+			"image": "file:///android_asset/image/logo.jpg",
+			"description": "Apa saja yang perlu diketahu dari ShopeePinjam atau SPinjam",
+			"link": "file:///android_asset/guide/guide_3.html"
+		},
+		{
+			"id": 7,
+			"name_category": "Tips",
+			"title": "Penghitungan SPinjam",
+			"image": "file:///android_asset/image/logo.jpg",
+			"description": "Cara menghitung Spinjam",
+			"link": "file:///android_asset/guide/guide_2.html"
+		},
+		{
+			"id": 8,
+			"name_category": "Tips",
+			"title": "Cara Menggunakan Shopee Pinjam (SPinjam)",
+			"image": "file:///android_asset/image/logo.jpg",
+			"description": "Langkah-langkah menggunakan Shopee Pinjam",
+			"link": "file:///android_asset/guide/guide_1.html"
+		}
+	]
 }
